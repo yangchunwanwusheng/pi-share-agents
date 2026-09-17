@@ -122,6 +122,7 @@ pi -e ./index.ts --prompt-template ./prompts
 | `test/integration/synapse-shared-memory.test.ts` | 跨 Agent 复用、来源失效、授权、存储完整性。 |
 | `tsconfig.synapse-tests.json` | 对新增测试做类型检查——上游 `tsconfig.json` 的 `include` 只覆盖 `src/`。 |
 | 委派与扩展生命周期文件 | 主要运行时改动见[接入点](#与上游的接入点)。 |
+| [`docs/specs/2026-09-15-synapse-pi-extension-design.md`](./docs/specs/2026-09-15-synapse-pi-extension-design.md) | pi-agent-share v1 设计规范（v1.1，2026-09-15 快照；实施进度以[实现状态](#实现状态)一节为准，验收项见规范 §11）。规范内相对链接按 synapse 仓/工作区路径书写，所引 ADR 与赛题等附件不随本仓分发。 |
 
 ## 实现状态
 
